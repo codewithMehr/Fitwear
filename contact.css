@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", sans-serif;
+}
+main {
+  padding: 3% 1%;
+  background-color: rgba(255, 235, 205, 0.402);
+
+  /* background-color: rgb(225, 139, 136); */
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+main h1 {
+  margin-block: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  color: brown;
+}
+h2,
+h3 {
+  text-transform: uppercase;
+  color: brown;
+}
+.timing,
+.location,
+.number {
+  padding: 3%;
+  width: 100%;
+  margin: 2% 0;
+  text-align: center;
+  /* background-color: rgba(255, 235, 205, 0.402); */
+  background-color: white;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 3%;
+}
+div.elem-group {
+  margin: 20px 0;
+}
+label {
+  display: block;
+  font-family: "Roboto Slab";
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input,
+textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  font-size: 1.25em;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 100%;
+  display: inline-block;
+}
+
+textarea {
+  height: 66px;
+  width: 370px;
+}
+
+button {
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: rgb(139, 47, 47);
+  border: none;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-size: 1.3em;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+button:hover {
+  color: rgb(139, 47, 47);
+  background-color: blanchedalmond;
+}

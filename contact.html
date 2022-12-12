@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script defer src="script.js"></script>
+    <title>Fitwear | contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-one">
+        <img src="logo.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">STORE</a></li>
+          <li><a href="#">CATEGORIES</a></li>
+          <li><a href="About us.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <img src="menu3.png" alt="" id="small-menu" />
+      </nav>
+      <nav class="nav-two">
+        <ul>
+          <li>HOME</li>
+          <li>STORE</li>
+          <li>CATEGORIES</li>
+          <li><a href="About us.html">ABOUT US</a></li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Details</h1>
+      <div class="timing">
+        <h2>Timings</h2>
+        <p>10:00 AM – 22.00 PM</p>
+        <p>Monday – Friday</p>
+      </div>
+      <div class="location">
+        <h2>location</h2>
+        <p>Capital Road Deen pura sialkot-51040 punjab Pak</p>
+      </div>
+      <div class="number">
+        <h2>Contact Us</h2>
+        <p>Phone: +92 336 0468531</p>
+        <p>Email: info@mackshasports.com</p>
+      </div>
+      <h1>LET'S GET IN TOUCH</h1>
+        <form action="reservation.php" method="post">
+          <div class="elem-group">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="visitor_name"
+              pattern="[A-Z\sa-z]{3,20}"
+              required
+            />
+          </div>
+          <div class="elem-group">
+            <label for="email">Your E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="visitor_email"
+              required
+            />
+          </div>
+          <div class="elem-group">
+            <label for="phone">Your Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              name="visitor_phone"
+              pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})"
+              required
+            />
+          </div>
+          </div>
+          <hr />
+          <div class="elem-group">
+            <label for="message">Your Questions/Queries</label>
+            <textarea
+              id="message"
+              name="customer_message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+    </main>
+  </body>
+</html>
