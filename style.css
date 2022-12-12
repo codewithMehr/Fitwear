@@ -48,10 +48,10 @@ ul {
 }
 a, a:visited {
   text-decoration: none !important;
-  color: white;
+  color: white !important;
 }
 a:hover {
-  color: gray;
+  color: gray !important;
 }
 #small-menu {
   display: none;
