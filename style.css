@@ -170,7 +170,7 @@ form {
   align-items: center;
   justify-content: center;
 }
-input[type="email"] {
+.section4 input[type="email"] {
   padding: 2%;
   font-size: 18px;
   width: 45%;
@@ -178,7 +178,7 @@ input[type="email"] {
   border: 1px solid black;
   border-radius: 10px;
 }
-input[type="submit"] {
+.section4 input[type="submit"] {
   padding: 2%;
   font-size: 20px;
   font-weight: bold;
@@ -190,7 +190,7 @@ input[type="submit"] {
   border-radius: 10px;
   transition: color 400ms ease;
 }
-input[type="submit"]:hover {
+.section4 input[type="submit"]:hover {
   color: rgb(139, 47, 47);
   background-color: blanchedalmond;
 }
