@@ -1,0 +1,42 @@
+@media (max-width: 838px) {
+  .carousel-inner {
+    height: initial !important;
+  }
+  .nav-one ul {
+    display: none;
+  }
+  #small-menu {
+    display: block;
+  }
+  .nav-one .logo {
+    height: 40px;
+  }
+  .nav-one {
+    height: 10vh;
+    padding: 5% 3%;
+  }
+  .nav-two {
+    background-color: rgb(139, 47, 47);
+    border-top: 2px solid white;
+    transition:all 500s ease;
+    display: none;
+  }
+  .nav-two li {
+    display: block;
+    list-style: none;
+    padding-inline: 2%;
+    color: white;
+    transition: color 500ms ease;
+    cursor: pointer;
+    font-weight: 600;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.57);
+  }
+  .visible {
+    display: block;
+    transition: all 0.7s ease;
+  }
+  .section2 h1 {
+    font-size: medium;
+  }
+}
