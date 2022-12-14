@@ -245,6 +245,7 @@ footer img {
 footer h6 {
   display: inline-block;
   font-weight: bold;
+  font-size: 1rem;
 }
 footer i {
   margin-inline: 5px;
